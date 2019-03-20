@@ -1,7 +1,6 @@
 header {
     display: grid; 
     background-color: darkred; 
-    grid-template-rows: 1fr 1fr 1fr; 
 }
 
 
