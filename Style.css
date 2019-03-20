@@ -14,10 +14,3 @@ main {
     grid-template-rows: 2fr 1fr 1fr; 
 }
 
-.submitButton {
-    color: black; 
-    border-radius: 20%; 
-    border-color: black;
-    margin: 0 auto;  
-    background-color: ghostwhite; 
-}
