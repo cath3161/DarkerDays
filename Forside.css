@@ -1,15 +1,11 @@
 .submitButton {
-    border: 2px solid #000000; 
-    column-span: all; 
+    border: 2px solid #000000;
     margin: 1rem; 
-    display: block;  
-    text-align: center; 
+    display: block;   
     padding: 1rem; 
     font-size: 1rem;
     height: 50px; 
-    width: 300px;
-    justify-items: center; 
-    align-items: center; 
+    width: 300px; 
 
 }
 
@@ -40,4 +36,10 @@ body {
     background-attachment: fixed; 
     background-size: 100%;  
 
+}
+
+footer { 
+    align-content: center; 
+    text-align: center;
+    color: dodgerblue; 
 }
