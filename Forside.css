@@ -1,3 +1,16 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1/12;
+    grid-template-rows: auto;
+}
+
 .submitButton {
     border: 2px solid #000000;
     margin: 1rem; 
@@ -16,18 +29,14 @@ main {
     grid-gap: 10px; 
 }
 
-li {
-    justify-items: center;
-    align-content: center; 
-    column-span: all; 
-}
 
 img {
     justify-items: center; 
     align-items: center; 
-    margin: 0 auto; 
-    padding: 0 auto;
+    margin: 2rem; 
+    padding: 1rem;
     height: 100px;
+
 }
 
 body {
