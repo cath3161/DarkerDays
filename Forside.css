@@ -1,12 +1,10 @@
 .submitButton {
     border-radius: 10px;
-    height: 100%;
-    border-width: 3px;
-    width: 100%;
-    align-items: center;  
-    float: center;
     column-span: all; 
     margin: 0 auto; 
+    display: block; 
+    padding: 1rem; 
+    text-align: center; 
 }
 
 main {
@@ -21,3 +19,4 @@ li {
     align-content: center; 
     column-span: all; 
 }
+

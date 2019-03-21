@@ -1,15 +1,22 @@
 header {
     display: grid; 
-    background-color: darkred; 
+    
 }
 
 
 
 main {
 
-    background-color: darkred; 
+     
     display: grid; 
     grid-template-columns: 1fr 2fr 1fr; 
     grid-template-rows: 2fr 1fr 1fr; 
 }
 
+body {
+    background-image: url(baggrund1.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100%;  
+
+}
