@@ -1,3 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1/12;
+    grid-template-rows: auto;
+}
+
+
+
+
 body {
     background-image: url(baggrund2.jpg);
     background-repeat: no-repeat; 
@@ -15,7 +29,37 @@ img {
 }
 
 main { 
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    justify-items: center; 
+    align-items: center; 
+    display: grid; 
+    grid-gap: 10px; 
 
 }
+
+.dailyJoke, .generator, .darkCreative, .profile, .logOut {
+    border: 2px solid #000000;
+    margin: 1rem; 
+    display: block;   
+    padding: 1rem; 
+    font-size: 1rem;
+    height: 50px; 
+    width: 380px; 
+}
+
+.dailyJoke { 
+    background-image: url(baggrund1.jpg); 
+}
+
+.generator {
+    background-image: url(baggrund4.jpg);
+}
+
+.darkCreative, .logOut {
+    background-image: url(baggrund5.jpg);
+}
+
+.profile {
+    background-image: url(baggrund3.jpg); 
+    color: #ffffff;
+}
+
