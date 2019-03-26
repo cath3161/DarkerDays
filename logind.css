@@ -1,0 +1,24 @@
+body {
+    background-image: url(baggrund2.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100%;
+}
+
+.inputContainer, p { 
+    display: block; 
+    padding: 1rem; 
+    text-align: center; 
+    font-size: 100%;
+    margin: 1rem; 
+}
+
+.inputContainer {
+   border: 1px solid #000000; 
+   
+}
+
+p {
+    align-content: center; 
+    text-align: center; 
+}
