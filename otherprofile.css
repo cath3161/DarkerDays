@@ -35,33 +35,44 @@ header{
   
 }
 .overskrift{
-    font-size: 2.5em; 
+    font-size: 2.5rem; 
     grid-column-start: 1;
     grid-column-end: six;
     text-align: center;
-    margin-top: 7% auto 30% auto;
+    margin-top: 4%;
+    margin-bottom: auto;
    
 }
 
 /* body */
 
 .username{
-    font-size: 1.9rem;
-    margin-top: 20%;
-
+    font-size: 2rem;
+    grid-column: 4;
+    margin-top:5%;
+    text-align: center;
 }
-
 .oploads{
     font-size: 1.5rem;
     grid-column: 4;
-    margin: 20% auto 10% auto;
+    margin: 12% auto 10% auto;
     text-align: center;
 }
 
 .joke1{
     width: 80vw;
     grid-column: 4; 
-    margin: auto 3.7vw 35% 10vw;
+    margin: auto 3.7vw 20% auto;
 
 }
+
+.joke2{
+    width: 80vw;
+    grid-column: 4; 
+    margin: auto 3.7vw 10% auto;
+}
+
+
+
+
 
