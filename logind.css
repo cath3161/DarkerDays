@@ -19,3 +19,9 @@ body {
 p {
     text-align: center; 
 }
+
+main {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+}
