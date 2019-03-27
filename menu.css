@@ -1,5 +1,5 @@
 body {
-    background-image: url(baggrund2.jpg);
+    background-image: url(forsidebaggrund.jpg);
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: 100%; 
@@ -30,19 +30,19 @@ main {
 }
 
 .dailyJoke { 
-    background-image: url(baggrund1.jpg); 
+    background-image: url(baggrundjoke.jpg); 
 }
 
 .generator {
-    background-image: url(baggrund4.jpg);
+    background-image: url(baggrundgenerator.jpg);
 }
 
 .darkCreative, .logOut {
-    background-image: url(baggrund5.jpg);
+    background-image: url(baggrundbedark.jpg);
 }
 
 .profile {
-    background-image: url(baggrund3.jpg); 
+    background-image: url(baggrundprofile.jpg); 
     
 }
 
