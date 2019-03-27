@@ -9,13 +9,8 @@ body {
     padding: 1rem;  
     font-size: 100%;
     margin: 1rem; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.inputContainer {
-   border: 1px solid #000000; 
-
-}
 
 a {
     text-align: center;
