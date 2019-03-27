@@ -3,6 +3,13 @@ header {
 }
 
 img {
-    width: 75px;
-    height: 75px; 
+    width: 50px;
+ 
+}
+
+body {
+    background-image: url(baggrund5.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
 }
