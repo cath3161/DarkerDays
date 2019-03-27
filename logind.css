@@ -5,10 +5,11 @@ body {
     background-size: 100%;
 }
 
-.inputContainer, p {  
+.inputContainer, a {  
     padding: 1rem;  
     font-size: 100%;
     margin: 1rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .inputContainer {
@@ -16,8 +17,9 @@ body {
 
 }
 
-p {
-    text-align: center; 
+a {
+    text-align: center;
+
 }
 
 main {
