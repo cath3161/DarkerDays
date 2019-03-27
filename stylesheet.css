@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+ 
+ display:grid;
+ grid-template-columns: repeat(6, 1fr);
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column: 1/-1;
+}
+
+.onedarkadaybaggrund{
+
+    width: 100px;
+    background-image: url(img/onedarkaday.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.tilbageknap{
+
+    width: 50px;
+   
+}
+
+.hjemknap{
+
+    width: 50px;
+   
+}
+.tilbage{
+    grid-column-start: 1;
+    margin: auto;
+    margin-top: 10%;
+}
+.hjem{
+    grid-column-start: 6;
+    margin: auto;   
+    margin-top: 10%;
+}
+.onedarkaday{
+    align-content: center;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "segoe ui";
+    color: white;
+    margin-top: 0px;
+    grid-column:span 6;
+}
+
+.jokekasse{
+    margin-top: 10%;
+    margin-left: 6.5%;
+    width: 330px;
+}
+
+.thedarkgenerator{
+    align-content: center;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "segoe ui";
+    color: white;
+    margin-top: 0px;
+    grid-column:span 6;
+}
+
+.thedarkgeneratorbaggrund{
+    width: 100%;
+    background-image: url(img/thedarkgeneratorbillede.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.kortene{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 365px;
+}
+
+
+
+
+  
+
