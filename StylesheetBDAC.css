@@ -1,0 +1,67 @@
+*{
+    margin: 0; 
+    margin: 0;
+}
+
+body { 
+    background-image: url(Billeder/Bedarkandcreative.jpg);
+    background-repeat: no-repeat;
+   height: 120%;
+   width: 100%;
+
+ }  
+
+
+ 
+ .header{ 
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: (4 1fr);
+ }
+
+ .headertilbage{
+     grid-column: 1; 
+
+
+ }
+.headerhome{
+    grid-column: 4;
+}
+
+
+#grid{
+    display: grid; 
+    grid-column: 
+}
+.headline{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.create{
+    display: grid; ¨
+    grid-row: (2 1fr);
+}
+.createjokeknap{
+    text-align: center; 
+    color: black;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: none;
+    height: 100px;
+    margin-left: 20%;
+    width: 700px;
+}
+.createcardknap{
+    text-align: center;
+    color: black; 
+    font-size:35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: none;
+    height: 100px;
+    margin-left: 20%; 
+    width: 700px;
+}
