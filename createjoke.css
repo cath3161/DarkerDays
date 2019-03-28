@@ -1,0 +1,49 @@
+body {
+    background-image: url(baggrundbedark.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.goBack{
+    float: left;
+}
+
+.goHome {
+    float: right;
+}
+
+img {
+    width: 50px; 
+}
+
+.createJoke, .uploadJoke {
+    color: #ffffff; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+}
+
+
+.createJoke {
+    margin-bottom: 9rem; 
+    font-size: 30px; 
+
+}
+
+.inputContainer {
+    text-align: center;
+    padding: 4rem; 
+
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+}
+
+body, ol {
+    margin: 0;
+    padding: 0;
+}
+

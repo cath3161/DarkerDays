@@ -1,0 +1,45 @@
+body {
+    background-image: url(baggrundbedark.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.createCard, .color, .uploadCard { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #ffffff; 
+  text-align: center; 
+}
+
+.back, .home {
+    width: 50px; 
+}
+
+.back {
+    float: left;
+}
+
+.home {
+    float: right; 
+}
+
+.createCard {
+    font-size: 30px; 
+}
+
+.inputContainer {
+    padding: 2rem; 
+    text-align: center; 
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+}
+
+body, ol {
+    margin: 0; 
+    padding: 0;
+}
+
