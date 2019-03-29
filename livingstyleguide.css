@@ -1,0 +1,20 @@
+body{
+    background-image: url(img/livingstyleguidebackground.jpg);
+    font-family: 'Segoe UI',  sans-serif;
+    color: #ffffff; 
+    text-align: center;
+    font-size: 35px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.billede1{
+    width: 70px;
+    margin-left: 2%;
+}
+
+.billede2{
+    width: 230px;
+}
