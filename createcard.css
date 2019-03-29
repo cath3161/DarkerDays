@@ -28,8 +28,9 @@ body {
 }
 
 .inputContainer {
-    padding: 2rem; 
+    padding: 4rem; 
     text-align: center; 
+
 }
 
 main {
@@ -43,3 +44,30 @@ body, ol {
     padding: 0;
 }
 
+#upload {
+    display: none;
+}
+#upload.active {
+    display: block;
+}
+
+
+
+section#upload {
+    width: 80vw;
+    height: 610px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -40vw;
+    top: 360px;
+}
+
+#closeUpload {
+    height:8%;
+    width:8%;
+}
+
+h1 {
+    font-size: 300%;
+}

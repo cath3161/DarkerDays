@@ -27,6 +27,8 @@ main {
     width: 350px; 
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
 }
 
 .dailyJoke { 

@@ -1,6 +1,6 @@
-console.log("create Card");
+console.log("create joke");
 
-var scan_button = document.querySelector(".uploadCard");
+var scan_button = document.querySelector(".uploadJoke");
 console.log(scan_button);
 
 
