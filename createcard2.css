@@ -23,6 +23,10 @@ body {
     float: right; 
 }
 
+.white {
+    border-image: 4px solid red;
+}
+
 .createCard {
     font-size: 30px; 
 }
