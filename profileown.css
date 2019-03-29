@@ -35,34 +35,59 @@ header{
   
 }
 .overskrift{
-    font-size: 2rem; 
+    font-size: 2.5rem; 
     grid-column-start: 1;
     grid-column-end: six;
     text-align: center;
     margin-top: 7%;
-   
+    margin-bottom: 5%;
 }
 
 /* body */
 
 .oploads{
     font-size: 1.5rem;
-    grid-column: 4;
+    grid-column-start: 1;
+    grid-column-end: four;
     margin: 10% auto 10% auto;
     text-align: center;
 }
 
-.ownjoke1{
-    width: 80vw;
-    grid-column: 4; 
-    margin: auto 3.7vw 35% auto;
-
+.box {
+    background-color: white;
+    grid-column: 2; 
+    width: 250px;
+    height: 120px;
+    padding: 2rem;
+    position: relative;
+    margin: 0 auto auto 5%;
 }
 
-.ownjoke2{
-    width: 80vw;
-    grid-column: 4; 
-    margin-right: 3.7vw;
+.box p {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 300;
+    color: black;
+}
 
+.interactionButton img {
+    width: 40px;
+}
+
+.interactionButton {
+    border: none;
+    background-color: transparent;
+}
+
+.interactionButton label {
+    display: block;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.interactionButtons {
+    position: absolute;
+    right: -1.5rem;
+    bottom: -2.2rem; 
 }
 

@@ -20,7 +20,7 @@ header{
     grid-column: 1/-1; 
 }
 .tilbageknap{
-    width: 20vw; 
+    width: 15vw; 
     grid-column-start:1; 
     margin: auto;   
     margin-top: 10%;
@@ -28,7 +28,7 @@ header{
 }
 
 .homeknap{
-    width: 20vw; 
+    width: 15vw; 
     grid-column-start:6; 
     margin: auto;
     margin-top: 15%;
@@ -40,6 +40,7 @@ header{
     grid-column-end: six;
     text-align: center;
     margin-top: 7%;
+    margin-left: 2%;
    
 }
 
@@ -48,21 +49,25 @@ header{
 .username{
     font-size: 1.5rem;
     grid-column: 4;
-    margin: 10% auto 10% auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
     text-align: center;
+    
 }
 
 .knap1{
     border: none;
+    width: 80vw;
     grid-column: 4; 
-    margin: auto 3.7vw 35% auto;
+    margin: auto 3.7vw 10% 25%;
 
 }
 
 .knap2{
     border: none;
+    width: 80vw;
     grid-column: 4; 
-    margin-right: 3.7vw;
+    margin: auto 3.7vw 10% 25%;
 
 }
 

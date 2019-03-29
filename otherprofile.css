@@ -8,7 +8,7 @@ body{
     height: 100%;
     display: grid; 
     grid-template-columns: repeat(6, 1fr);
-    font-family: 'Segoe UI', sans-serif; 
+    font-family: 'Segoe UI';
     color: white; 
 }
 
@@ -48,28 +48,55 @@ header{
 
 .username{
     font-size: 2rem;
-    grid-column: 4;
+    grid-column: 2/4;
     margin-top:5%;
+    margin-right: -20%;
     text-align: center;
 }
 .oploads{
     font-size: 1.5rem;
-    grid-column: 4;
+    grid-column: 5/6;
     margin: 12% auto 10% auto;
     text-align: center;
 }
 
-.joke1{
-    width: 80vw;
-    grid-column: 4; 
-    margin: auto 3.7vw 20% auto;
-
+.box {
+    background-color: white;
+    grid-column: 2;
+    width: 300px;
+    height: 120px;
+    padding: 2rem;
+    position: relative;
+    margin: 0 auto auto 20%;
 }
 
-.joke2{
-    width: 80vw;
-    grid-column: 4; 
-    margin: auto 3.7vw 10% auto;
+.box p {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 300;
+    color: black;
+    font-family: 'Segoe UI';
+}
+
+.interactionButton img {
+    width: 40px;
+}
+
+.interactionButton {
+    border: none;
+    background-color: transparent;
+}
+
+.interactionButton label {
+    display: block;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.interactionButtons {
+    position: absolute;
+    right: -1.5rem;
+    bottom: -2.2rem; 
 }
 
 
